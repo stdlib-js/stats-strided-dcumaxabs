@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-21)
+## Unreleased (2025-02-24)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`44f6d3a`](https://github.com/stdlib-js/stdlib/commit/44f6d3a8bc68bbdd46bef336268151a883ff5476) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`9247bb6`](https://github.com/stdlib-js/stdlib/commit/9247bb638d6c49b7f37bf1337f4011db0a873177) - **feat:** add `stats/strided/dcumaxabs` _(by Aayush Khanna)_
 
 </details>
