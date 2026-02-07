@@ -50,6 +50,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dcumaxabs/tags). For example,
+
+```javascript
 import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@v0.1.1-esm/index.mjs';
 ```
 
@@ -165,7 +170,7 @@ dcumaxabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@v0.1.1-esm/index.mjs';
+import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
