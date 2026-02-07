@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@esm/index.mjs';
+import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@v0.1.1-esm/index.mjs';
 ```
 
 #### dcumaxabs( N, x, strideX, y, strideY )
@@ -165,7 +165,7 @@ dcumaxabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@esm/index.mjs';
+import dcumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dcumaxabs@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
